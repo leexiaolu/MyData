@@ -59,9 +59,7 @@ public class SPUtils {
     }
 
 
-    /**
-     * 返回所有键值对
-     */
+    // 返回所有键值对
     public static Map<String, ?> getAll(Context context) {
         SharedPreferences sp = context.getSharedPreferences(FILE_NAME, context.MODE_PRIVATE);
         Map<String, ?> map = sp.getAll();
