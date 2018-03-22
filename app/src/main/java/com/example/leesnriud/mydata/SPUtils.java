@@ -9,9 +9,9 @@ import java.util.Map;
  * Created by lee.snriud on 2018/3/21.
  */
 public class SPUtils {
-    /**
-     * 保存在手机里的SP文件名
-     */
+
+    // 保存在手机里的SP文件名
+
     public static final String FILE_NAME = "my_sp_name";
 
     // 保存数据
