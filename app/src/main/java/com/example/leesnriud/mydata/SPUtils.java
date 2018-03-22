@@ -74,9 +74,7 @@ public class SPUtils {
         editor.commit();
     }
 
-    /**
-     * 检查key对应的数据是否存在
-     */
+    // 检查key对应的数据是否存在
     public static boolean contains(Context context, String key) {
         SharedPreferences sp = context.getSharedPreferences(FILE_NAME, context.MODE_PRIVATE);
         return sp.contains(key);
