@@ -14,9 +14,7 @@ public class SPUtils {
      */
     public static final String FILE_NAME = "my_sp_name";
 
-    /**
-     * 保存数据
-     */
+    // 保存数据
     public static void put(Context context, String key, Object obj) {
         SharedPreferences sp = context.getSharedPreferences(FILE_NAME, context.MODE_PRIVATE);
         SharedPreferences.Editor editor = sp.edit();
