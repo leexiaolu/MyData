@@ -22,7 +22,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".FileActivity" />
-        <activity android:name=".SharedpreferencesActivity" />
         <activity android:name=".SqliteActivity" />
         <activity android:name=".Sqlite2Activity"></activity>
     </application>
