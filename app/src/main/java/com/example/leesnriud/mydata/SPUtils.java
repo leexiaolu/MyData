@@ -50,9 +50,7 @@ public class SPUtils {
         return null;
     }
 
-    /**
-     * 删除指定数据
-     */
+    // 删除指定数据
     public static void remove(Context context, String key) {
         SharedPreferences sp = context.getSharedPreferences(FILE_NAME, context.MODE_PRIVATE);
         SharedPreferences.Editor editor = sp.edit();
