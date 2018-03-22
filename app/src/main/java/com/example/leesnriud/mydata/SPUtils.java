@@ -35,9 +35,7 @@ public class SPUtils {
     }
 
 
-    /**
-     * 获取指定数据
-     */
+    // 获取指定数据
     public static Object get(Context context, String key, Object defaultObj) {
         SharedPreferences sp = context.getSharedPreferences(FILE_NAME, context.MODE_PRIVATE);
         if (defaultObj instanceof Boolean) {
