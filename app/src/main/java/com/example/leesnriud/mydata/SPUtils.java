@@ -66,9 +66,7 @@ public class SPUtils {
         return map;
     }
 
-    /**
-     * 删除所有数据
-     */
+    // 删除所有数据
     public static void clear(Context context) {
         SharedPreferences sp = context.getSharedPreferences(FILE_NAME, context.MODE_PRIVATE);
         SharedPreferences.Editor editor = sp.edit();
