@@ -23,7 +23,6 @@
         </activity>
         <activity android:name=".FileActivity" />
         <activity android:name=".SqliteActivity" />
-        <activity android:name=".Sqlite2Activity"></activity>
     </application>
 
 </manifest>

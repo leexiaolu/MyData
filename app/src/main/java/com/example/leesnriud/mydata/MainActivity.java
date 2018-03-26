@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
     }
 
-    @OnClick({R.id.bt_file, R.id.bt_sharedpreferences, R.id.bt_sqlite1, R.id.bt_sqlite2})
+    @OnClick({R.id.bt_file, R.id.bt_sharedpreferences, R.id.bt_sqlite})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.bt_file:
@@ -30,12 +30,8 @@ public class MainActivity extends AppCompatActivity {
             case R.id.bt_sharedpreferences:
                 Toast.makeText(MainActivity.this,"查看项目中工具类即可",Toast.LENGTH_LONG).show();
                 break;
-            case R.id.bt_sqlite1:
+            case R.id.bt_sqlite:
                 intent = new Intent(MainActivity.this,SqliteActivity.class);
-                startActivity(intent);
-                break;
-            case R.id.bt_sqlite2:
-                intent = new Intent(MainActivity.this,Sqlite2Activity.class);
                 startActivity(intent);
                 break;
         }

@@ -23,14 +23,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
         <Button
-            android:id="@+id/bt_sqlite1"
+            android:id="@+id/bt_sqlite"
             android:text="sqlite"
-            android:layout_margin="5dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-        <Button
-            android:id="@+id/bt_sqlite2"
-            android:text="sqlite2"
             android:layout_margin="5dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
